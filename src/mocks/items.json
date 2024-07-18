@@ -1,0 +1,664 @@
+{
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Pasta Palace",
+      "cuisine": "Italian",
+      "location": "New York",
+      "rating": 4.5,
+      "distance": "1.2 KM",
+      "menus": [
+        {
+          "name": "Spaghetti Carbonara",
+          "price": 12.99
+        },
+        {
+          "name": "Margherita Pizza",
+          "price": 10.99
+        },
+        {
+          "name": "Tiramisu",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Sushi Central",
+      "cuisine": "Japanese",
+      "location": "San Francisco",
+      "rating": 4.7,
+      "distance": "2.5 KM",
+      "menus": [
+        {
+          "name": "Sashimi Platter",
+          "price": 22.99
+        },
+        {
+          "name": "California Roll",
+          "price": 15.99
+        },
+        {
+          "name": "Green Tea Ice Cream",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Curry Corner",
+      "cuisine": "Indian",
+      "location": "Chicago",
+      "rating": 4.6,
+      "distance": "0.9 KM",
+      "menus": [
+        {
+          "name": "Chicken Tikka Masala",
+          "price": 14.99
+        },
+        {
+          "name": "Vegetable Biryani",
+          "price": 12.99
+        },
+        {
+          "name": "Gulab Jamun",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Burger Bonanza",
+      "cuisine": "American",
+      "location": "Los Angeles",
+      "rating": 4.4,
+      "distance": "3.1 KM",
+      "menus": [
+        {
+          "name": "Classic Cheeseburger",
+          "price": 9.99
+        },
+        {
+          "name": "BBQ Bacon Burger",
+          "price": 11.99
+        },
+        {
+          "name": "Onion Rings",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Taco Town",
+      "cuisine": "Mexican",
+      "location": "Houston",
+      "rating": 4.3,
+      "distance": "4.0 KM",
+      "menus": [
+        {
+          "name": "Tacos al Pastor",
+          "price": 8.99
+        },
+        {
+          "name": "Guacamole and Chips",
+          "price": 6.99
+        },
+        {
+          "name": "Churros",
+          "price": 4.49
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Dim Sum Delight",
+      "cuisine": "Chinese",
+      "location": "Seattle",
+      "rating": 4.8,
+      "distance": "2.2 KM",
+      "menus": [
+        {
+          "name": "Har Gow (Shrimp Dumplings)",
+          "price": 11.99
+        },
+        {
+          "name": "Char Siu Bao (BBQ Pork Buns)",
+          "price": 9.99
+        },
+        {
+          "name": "Egg Tarts",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pho Paradise",
+      "cuisine": "Vietnamese",
+      "location": "Boston",
+      "rating": 4.7,
+      "distance": "1.8 KM",
+      "menus": [
+        {
+          "name": "Pho Tai (Beef Noodle Soup)",
+          "price": 10.99
+        },
+        {
+          "name": "Banh Mi Sandwich",
+          "price": 8.99
+        },
+        {
+          "name": "Vietnamese Coffee",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Falafel Fantasy",
+      "cuisine": "Middle Eastern",
+      "location": "Miami",
+      "rating": 4.6,
+      "distance": "3.7 KM",
+      "menus": [
+        {
+          "name": "Falafel Wrap",
+          "price": 7.99
+        },
+        {
+          "name": "Hummus and Pita",
+          "price": 5.99
+        },
+        {
+          "name": "Baklava",
+          "price": 3.49
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Steakhouse Supreme",
+      "cuisine": "Steakhouse",
+      "location": "Dallas",
+      "rating": 4.9,
+      "distance": "2.9 KM",
+      "menus": [
+        {
+          "name": "Filet Mignon",
+          "price": 29.99
+        },
+        {
+          "name": "Ribeye Steak",
+          "price": 27.99
+        },
+        {
+          "name": "Loaded Baked Potato",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pizza Prodigy",
+      "cuisine": "Italian",
+      "location": "Philadelphia",
+      "rating": 4.5,
+      "distance": "1.1 KM",
+      "menus": [
+        {
+          "name": "Margherita Pizza",
+          "price": 12.99
+        },
+        {
+          "name": "Pepperoni Pizza",
+          "price": 13.99
+        },
+        {
+          "name": "Caesar Salad",
+          "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Seafood Shack",
+      "cuisine": "Seafood",
+      "location": "San Diego",
+      "rating": 4.7,
+      "distance": "4.5 KM",
+      "menus": [
+        {
+          "name": "Grilled Salmon",
+          "price": 18.99
+        },
+        {
+          "name": "Lobster Roll",
+          "price": 22.99
+        },
+        {
+          "name": "Clam Chowder",
+          "price": 9.99
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Brunch Bistro",
+      "cuisine": "American",
+      "location": "Denver",
+      "rating": 4.3,
+      "distance": "3.0 KM",
+      "menus": [
+        {
+          "name": "Eggs Benedict",
+          "price": 11.99
+        },
+        {
+          "name": "French Toast",
+          "price": 9.99
+        },
+        {
+          "name": "Mimosa",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Vegan Valley",
+      "cuisine": "Vegan",
+      "location": "Portland",
+      "rating": 4.8,
+      "distance": "2.3 KM",
+      "menus": [
+        {
+          "name": "Vegan Burger",
+          "price": 10.99
+        },
+        {
+          "name": "Quinoa Bowl",
+          "price": 12.99
+        },
+        {
+          "name": "Avocado Toast",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "BBQ Barn",
+      "cuisine": "Barbecue",
+      "location": "Memphis",
+      "rating": 4.7,
+      "distance": "3.2 KM",
+      "menus": [
+        {
+          "name": "Brisket Plate",
+          "price": 16.99
+        },
+        {
+          "name": "Pulled Pork Sandwich",
+          "price": 14.99
+        },
+        {
+          "name": "Cornbread",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Paella Palace",
+      "cuisine": "Spanish",
+      "location": "Las Vegas",
+      "rating": 4.6,
+      "distance": "1.6 KM",
+      "menus": [
+        {
+          "name": "Seafood Paella",
+          "price": 19.99
+        },
+        {
+          "name": "Tapas Platter",
+          "price": 14.99
+        },
+        {
+          "name": "Churros",
+          "price": 5.99
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Bistro Bonanza",
+      "cuisine": "French",
+      "location": "New Orleans",
+      "rating": 4.9,
+      "distance": "2.8 KM",
+      "menus": [
+        {
+          "name": "Coq au Vin",
+          "price": 21.99
+        },
+        {
+          "name": "Escargots",
+          "price": 17.99
+        },
+        {
+          "name": "Creme Brulee",
+          "price": 8.99
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Burger Bliss",
+      "cuisine": "American",
+      "location": "Phoenix",
+      "rating": 4.5,
+      "distance": "3.4 KM",
+      "menus": [
+        {
+          "name": "Double Cheeseburger",
+          "price": 10.99
+        },
+        {
+          "name": "Bacon Ranch Burger",
+          "price": 12.99
+        },
+        {
+          "name": "Sweet Potato Fries",
+          "price": 4.49
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Ramen Retreat",
+      "cuisine": "Japanese",
+      "location": "Atlanta",
+      "rating": 4.6,
+      "distance": "2.0 KM",
+      "menus": [
+        {
+          "name": "Tonkotsu Ramen",
+          "price": 13.99
+        },
+        {
+          "name": "Shoyu Ramen",
+          "price": 12.99
+        },
+        {
+          "name": "Edamame",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Tapas Temple",
+      "cuisine": "Spanish",
+      "location": "Austin",
+      "rating": 4.7,
+      "distance": "1.9 KM",
+      "menus": [
+        {
+          "name": "Patatas Bravas",
+          "price": 8.99
+        },
+        {
+          "name": "Gambas al Ajillo",
+          "price": 11.99
+        },
+        {
+          "name": "Sangria",
+          "price": 6.99
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Kebab Kingdom",
+      "cuisine": "Turkish",
+      "location": "San Antonio",
+      "rating": 4.8,
+      "distance": "2.4 KM",
+      "menus": [
+        {
+          "name": "Chicken Shish Kebab",
+          "price": 15.99
+        },
+        {
+          "name": "Falafel Wrap",
+          "price": 10.99
+        },
+        {
+          "name": "Baklava",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Salad Sanctuary",
+      "cuisine": "Salad",
+      "location": "Salt Lake City",
+      "rating": 4.4,
+      "distance": "3.8 KM",
+      "menus": [
+        {
+          "name": "Caesar Salad",
+          "price": 8.99
+        },
+        {
+          "name": "Greek Salad",
+          "price": 10.99
+        },
+        {
+          "name": "Caprese Salad",
+          "price": 7.99
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Gourmet Grill",
+      "cuisine": "Grill",
+      "location": "Indianapolis",
+      "rating": 4.6,
+      "distance": "4.1 KM",
+      "menus": [
+        {
+          "name": "Grilled Chicken Breast",
+          "price": 12.99
+        },
+        {
+          "name": "BBQ Ribs",
+          "price": 18.99
+        },
+        {
+          "name": "Corn on the Cob",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Pizza Palace",
+      "cuisine": "Italian",
+      "location": "New York",
+      "rating": 4.7,
+      "distance": "1.5 KM",
+      "menus": [
+        {
+          "name": "Pepperoni Pizza",
+          "price": 12.99
+        },
+        {
+          "name": "Margherita Pizza",
+          "price": 11.99
+        },
+        {
+          "name": "Garlic Knots",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Sushi Spot",
+      "cuisine": "Japanese",
+      "location": "San Francisco",
+      "rating": 4.8,
+      "distance": "3.3 KM",
+      "menus": [
+        {
+          "name": "Dragon Roll",
+          "price": 19.99
+        },
+        {
+          "name": "Rainbow Roll",
+          "price": 17.99
+        },
+        {
+          "name": "Miso Soup",
+          "price": 3.49
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Curry Corner",
+      "cuisine": "Indian",
+      "location": "Chicago",
+      "rating": 4.5,
+      "distance": "2.6 KM",
+      "menus": [
+        {
+          "name": "Butter Chicken",
+          "price": 13.99
+        },
+        {
+          "name": "Vegetable Samosas",
+          "price": 8.99
+        },
+        {
+          "name": "Mango Lassi",
+          "price": 4.99
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Burger Bonanza",
+      "cuisine": "American",
+      "location": "Los Angeles",
+      "rating": 4.6,
+      "distance": "1.0 KM",
+      "menus": [
+        {
+          "name": "BBQ Bacon Burger",
+          "price": 11.99
+        },
+        {
+          "name": "Double Cheeseburger",
+          "price": 10.99
+        },
+        {
+          "name": "Sweet Potato Fries",
+          "price": 4.49
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Taco Town",
+      "cuisine": "Mexican",
+      "location": "Houston",
+      "rating": 4.7,
+      "distance": "4.4 KM",
+      "menus": [
+        {
+          "name": "Chorizo Tacos",
+          "price": 9.99
+        },
+        {
+          "name": "Quesadillas",
+          "price": 8.99
+        },
+        {
+          "name": "Churros",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Taco Town2",
+      "cuisine": "Mexican",
+      "location": "Houston",
+      "rating": 4.7,
+      "distance": "3.5 KM",
+      "menus": [
+        {
+          "name": "Fish Tacos",
+          "price": 10.99
+        },
+        {
+          "name": "Guacamole",
+          "price": 6.99
+        },
+        {
+          "name": "Mexican Street Corn",
+          "price": 4.49
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Taco Town3",
+      "cuisine": "Mexican",
+      "location": "Houston",
+      "rating": 4.7,
+      "distance": "2.7 KM",
+      "menus": [
+        {
+          "name": "Carne Asada Tacos",
+          "price": 11.99
+        },
+        {
+          "name": "Chips and Salsa",
+          "price": 5.99
+        },
+        {
+          "name": "Flan",
+          "price": 3.99
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Taco Town4",
+      "cuisine": "Mexican",
+      "location": "Houston",
+      "rating": 4.7,
+      "distance": "1.4 KM",
+      "menus": [
+        {
+          "name": "Carnitas Tacos",
+          "price": 9.99
+        },
+        {
+          "name": "Taco Salad",
+          "price": 8.99
+        },
+        {
+          "name": "Choco Tacos",
+          "price": 4.49
+        }
+      ]
+    }
+  ]
+}
