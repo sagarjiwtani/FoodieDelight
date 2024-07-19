@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../index.css";
-import { CSSTransition } from "react-transition-group";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
