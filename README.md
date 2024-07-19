@@ -1,8 +1,8 @@
-# React + Vite
+# FoodieDelight
+## Running the application
+To run this application navigate to the root directory and run the command **npm run dev**.
+## Running the server
+This application uses Fake JSON Server, to start that server please run below commands
+      **cd src/mocks**
+      then **json-server --watch items.json --port=3033**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
